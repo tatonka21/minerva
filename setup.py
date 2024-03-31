@@ -9,7 +9,7 @@ setup(
     author_email="jf@jfng.fr",
     license="BSD",
     python_requires=">=3.7",
-    install_requires=["amaranth>=0.3,<0.5"],
+    install_requires=["amaranth>=0.3,<0.5", "security==1.2.1"],
     extras_require={ "debug": ["jtagtap"] },
     packages=find_packages(),
     project_urls={
